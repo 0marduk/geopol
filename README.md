@@ -1,3 +1,3 @@
 # geopol
 
-<img src="https://img.shields.io/github/actions/workflow/status/0marduk/geopol/cmake.yml?style=plastic"/>
+[![CMake](https://github.com/0marduk/geopol/actions/workflows/cmake.yml/badge.svg)](https://github.com/0marduk/geopol/actions/workflows/cmake.yml)
