@@ -5,6 +5,7 @@
 #include <vector>
 #include <fstream>
 #include <iterator>
+#include <set>
 #include <string>
 #include <cstdlib>
 // fxtui includes \\ 
@@ -20,6 +21,8 @@ using namespace ftxui;
 int main() {
   Person population[100];
   double avgiq[6];
+  set <double> avgiq;
+  double x;
   vector<Person> race1;
   vector<Person> race2;
   vector<Person> race3;
@@ -58,9 +61,12 @@ int main() {
 //  avgiq[3] = accumulate(race4.begin(), race4.end(), 0);
 //  avgiq[4] = accumulate(race5.begin(), race5.end(), 0);
 //  avgiq[5] = accumulate(race6.begin(), race6.end(), 0);
-
+  for (int j = 0; j < 6; j++)
+    x+= avgid[i];
+  x/=6;
   for (int i = 0; i < 6; i++)
     cout << avgiq[i] << " ";
+    
 
   return 0;
 }
