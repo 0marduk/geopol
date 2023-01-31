@@ -1,6 +1,6 @@
 #include <person.h>
 
-Person::Person(int points) {
+void Person::init(int points) {
   this->iq=points;
   if (points >= -20 && points <= -1)
     this->race = 1;
