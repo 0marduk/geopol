@@ -62,7 +62,7 @@ int main() {
 //  avgiq[4] = accumulate(race5.begin(), race5.end(), 0);
 //  avgiq[5] = accumulate(race6.begin(), race6.end(), 0);
   for (int j = 0; j < 6; j++)
-    x+= avgid[i];
+    x+= avgiq[i];
   x/=6;
   for (int i = 0; i < 6; i++)
     cout << avgiq[i] << " ";
