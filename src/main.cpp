@@ -66,9 +66,9 @@ int main() {
     x+= avgiqh[i];
   }
   x/=6;
-  for (int i = 0; i < 6; i++)
+  for (int i = 0; i < 6; i++){
     cout << avgiq[i] << " ";
-    
+  }
 
   return 0;
 }
