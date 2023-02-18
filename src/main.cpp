@@ -21,7 +21,7 @@ using namespace ftxui;
 int main() {
   Person population[100];
   double avgiq[6];
-  set <double> avgiq;
+  
   double x;
   vector<Person> race1;
   vector<Person> race2;
@@ -53,21 +53,6 @@ int main() {
       race6.push_back(population[i]);
       break;
     }
-  }
-
-//  avgiq[0] = accumulate(race1.begin(), race1.end(), 0);
-//  avgiq[1] = accumulate(race2.begin(), race2.end(), 0);
-//  avgiq[2] = accumulate(race3.begin(), race3.end(), 0);
-//  avgiq[3] = accumulate(race4.begin(), race4.end(), 0);
-//  avgiq[4] = accumulate(race5.begin(), race5.end(), 0);
-//  avgiq[5] = accumulate(race6.begin(), race6.end(), 0);
-  for (int j = 0; j < 6; j++){
-    avgiqh[i]= avgiq[i];
-    x+= avgiqh[i];
-  }
-  x/=6;
-  for (int i = 0; i < 6; i++){
-    cout << avgiq[i] << " ";
   }
 
   return 0;
